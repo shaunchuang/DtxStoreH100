@@ -1,0 +1,208 @@
+.app-main-container {
+	width: 66%;
+}
+
+/*** 圖片輪播區 ***/
+.carousel-inner img {
+	border-radius: 15px;
+}
+
+/*** 右側介紹區 ***/
+.intro-rating {
+	display: flex;
+	align-items: center;
+}
+
+.intro-rating .star {
+	color: #ffc107;
+	font-size: 24px;
+}
+
+.intro-rating .empty-star {
+	color: #e4e5e9;
+	font-size: 24px;
+}
+
+.intro-rating .rating-value {
+	margin-left: 8px;
+	color: #007bff;
+	font-size: 18px;
+}
+
+.right-intro-title {
+	font-weight: 700;
+}
+
+/*** 教案功能區 ***/
+.fa-heart {
+	color: #ff0000;
+}
+
+.lesson-function {
+	justify-content: space-between;
+}
+
+.lesson-price, .lesson-try, .add-favorites {
+	border: solid #00CB96 2px;
+	border-radius: 35px;
+	display: inline-block;
+}
+
+.lesson-price {
+	background-color: #4242;
+	border: solid #555 2px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+/*** 主介紹 ***/
+.sub-title {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.lesson-intro-text {
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+.caution-title {
+	font-weight: 700;
+}
+
+/*** 評論區塊 ***/
+.review-title {
+	color: #DADADA;
+}
+
+.rating-title-value {
+	color: #444444;
+}
+
+.review-ave {
+	font-size: 3.5rem;
+}
+
+.comment-area {
+	max-height: 350px;
+	overflow-y: auto;
+}
+
+.review-rating {
+	display: flex;
+	align-items: center;
+}
+
+.review-rating .star {
+	color: #ffc107;
+	font-size: 18px;
+}
+
+.review-rating .empty-star {
+	color: #e4e5e9;
+}
+
+.review-rating .rating-value {
+	margin-left: 8px;
+	color: #007bff;
+	font-size: 16px;
+}
+
+.review-container {
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.review-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/*** 分析區塊頁籤 ***/
+.stats-area {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.app-nav {
+	display: flex;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+.app-nav-tab {
+	cursor: pointer;
+}
+
+.tab-right {
+	border-right: #ddd solid 1px;
+}
+
+.app-nav-title {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.app-nav-tab.active {
+	border-bottom: black solid 2px;
+}
+
+.app-nav-tab.active .app-nav-title {
+	font-weight: 900;
+}
+
+.analytic-img {
+	max-width: 100%; /* 限制圖片寬度不超過容器 */
+	height: auto; /* 根據寬度自動調整高度，保持比例 */
+	border-radius: 10px; /* 圓角 */
+}
+
+/*** 教案分析區塊 ***/
+.stats-analytic {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.stat-analytic {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.stat-analytic-num {
+	font-size: 3rem;
+	color: #444444;
+	text-align: center;
+}
+
+.stat-analytic-text {
+	font-size: 1rem;
+	color: black;
+	text-align: center;
+}
+
+.analytic-buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.analytic-buttons button {
+	border: 1px solid #ddd;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.analytic-buttons button.active {
+	border: 1px solid #007bff;
+	color: #007bff;
+}

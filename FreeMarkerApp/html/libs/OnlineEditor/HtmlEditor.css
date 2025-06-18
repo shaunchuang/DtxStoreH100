@@ -1,0 +1,8 @@
+.html_content {
+    width: 100%;
+    height: 40vh;
+    visibility: hidden;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    background: red;
+}

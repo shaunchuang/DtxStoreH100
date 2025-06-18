@@ -1,0 +1,50 @@
+package demo;
+
+import itri.sstc.framework.core.Config;
+import itri.sstc.framework.core.httpd.HttpService;
+
+import java.io.FileInputStream;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
+
+/**
+ * 初始化表單相關資料
+ *
+ * @author schung
+ */
+public class Server {
+
+    static String SERVER_NAME = "DemoHttpd";
+
+    public static void main(String[] args) {
+        try {
+            LogManager.getLogManager().readConfiguration(new FileInputStream("./logging.properties"));
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        //
+        try {
+            Config.load();
+        } catch (Exception ex) {
+        }
+        //
+        try {
+            final HttpService httpd = new HttpService();
+            //
+            httpd.startService();
+            //
+            Runtime.getRuntime().addShutdownHook(new Thread() {
+                @Override
+                public void run() {
+                    httpd.stopService();
+                    Logger.getGlobal().log(Level.INFO, String.format("%s shutdown", SERVER_NAME));
+                }
+            });
+            HttpService.log(Level.INFO, String.format("Start %s OK", SERVER_NAME));
+        } catch (Exception ex) {
+            HttpService.log(Level.SEVERE, String.format("Start %s Error, exit(1)", SERVER_NAME), ex);
+        }
+    }
+
+}

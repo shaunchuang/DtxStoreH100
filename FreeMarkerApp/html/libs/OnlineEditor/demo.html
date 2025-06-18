@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover" />
+
+        <script src="../editor/Editor.js"></script>
+
+        <script src="../editor/lib/qunit/qunit.js"></script>
+
+        <!-- 載入編輯器主模組 //-->
+        <script src="../OnlineEditor/core/core.js"></script>
+        <script src="../OnlineEditor/core/config.js"></script>
+        <script src="../OnlineEditor/core/ajax.js"></script>
+        <script src="../OnlineEditor/core/event.js"></script>
+        <script src="../OnlineEditor/core/html.js"></script>
+        <script src="../OnlineEditor/core/selector.js"></script>
+        <script src="../OnlineEditor/core/node.js"></script>
+        <script src="../OnlineEditor/core/range.js"></script>
+        <script src="../OnlineEditor/core/cmd.js"></script>
+        <script src="../OnlineEditor/core/widget.js"></script>
+        <script src="../OnlineEditor/core/edit.js"></script>
+        <script src="../OnlineEditor/core/toolbar.js"></script>
+        <script src="../OnlineEditor/core/menu.js"></script>
+        <script src="../OnlineEditor/core/colorpicker.js"></script>
+        <script src="../OnlineEditor/core/uploadbutton.js"></script>
+        <script src="../OnlineEditor/core/dialog.js"></script>
+        <script src="../OnlineEditor/core/tabs.js"></script>
+        <!-- 這個要最後載入 //-->
+        <script src="../OnlineEditor/core/main.js"></script>
+
+        <!-- 載入插件 //-->
+        <script src="../OnlineEditor/plugins/emoticons/emoticons.js"></script>
+        <script src="../OnlineEditor/plugins/flash/flash.js"></script>
+        <script src="../OnlineEditor/plugins/image/image.js"></script>
+        <script src="../OnlineEditor/plugins/link/link.js"></script>
+        <script src="../OnlineEditor/plugins/media/media.js"></script>
+        <script src="../OnlineEditor/plugins/plainpaste/plainpaste.js"></script>
+        <script src="../OnlineEditor/plugins/table/table.js"></script>
+        <script src="../OnlineEditor/plugins/wordpaste/wordpaste.js"></script>
+        <script src="../OnlineEditor/plugins/filemanager/filemanager.js"></script>
+        <script src="../OnlineEditor/plugins/preview/preview.js"></script>
+        <script src="../OnlineEditor/plugins/code/code.js"></script>
+        <script src="../OnlineEditor/plugins/map/map.js"></script>
+        <script src="../OnlineEditor/plugins/lineheight/lineheight.js"></script>
+
+        <!-- 載入語言包 //-->
+        <script src="../OnlineEditor/lang/en.js"></script>
+        <script src="../OnlineEditor/lang/zh-TW.js"></script>
+
+        <script>
+            var editor;
+            var content;
+
+            KindEditor.ready(function (KEditor) {
+                editor = KEditor.create('#content', {
+                    basePath: './editor/',
+                    filterMode: false,
+                    wellFormatMode: false
+                });
+                content = document.getElementById('content');
+            });
+
+            function getContent() {
+                if (content) {
+                    editor.sync();
+                    console.info(content.value);
+                    return content.value;
+                }
+            }
+
+            function setContent() {
+                let html = '<span style="background-color:#E53333;color:#FFFFFF;">測試</span>';
+                editor.html(html);
+            }
+
+        </script>
+
+        <link rel="stylesheet" href="../OnlineEditor/themes/default/default.css" />
+        <link rel="stylesheet" href="../OnlineEditor/HtmlEditor.css" />
+
+        <style>
+
+            .content {
+                width: 100%;
+                height: 40vh;
+                visibility: hidden;
+                background: green;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div >
+            <div>
+                <textarea class='content' id='content' name='content' ></textarea>
+            </div>
+            <input type='button' value='test' onclick="setContent()" />
+            <input type='button' value='test2' onclick="getContent()" />
+        </div>
+    </body>
+
+</html>

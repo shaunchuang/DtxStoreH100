@@ -1,0 +1,494 @@
+/*** 篩選框 ***/
+.fileter-box {
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.filter-box-title {
+	font-size: 18px;
+	font-weight: 900;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	color: #008E7B;
+}
+
+.fileter-box h5::before {
+	content: url('icon.png'); /* 在這裡放置你的圖標圖片 */
+	margin-right: 10px;
+}
+
+.fileter-box hr {
+	margin: 10px 0;
+}
+
+.form-group-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-unstyled li {
+	margin-bottom: 10px;
+}
+
+.list-unstyled li input[type="checkbox"] {
+	margin-right: 10px;
+	accent-color: #00c3a0;
+}
+
+.list-unstyled li input[type="text"] {
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	background-color: #ebebeb;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.form-group ul li {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-group ul li input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+.slider-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.slider-wrapper input[type="range"] {
+	flex: 1;
+	margin: 0 10px;
+}
+
+/*** 搜尋排序框 ***/
+.search-group {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+}
+
+.col-md-5-5 {
+	width: 45.8333%;
+}
+
+.filter-button-block {
+	display: flex;
+	align-items: center;
+}
+
+.filter-button {
+	width: 100%;
+	border-radius: 3rem;
+	border: 1px solid #ddd;
+	height: 2.8rem;
+	background-color: white;
+	align-items: center;
+}
+
+.filter-button.active {
+	background-color: #00c3a0;
+	color: white;
+}
+
+.search-bar {
+	display: flex;
+	margin-bottom: 1rem;
+}
+
+.search-input {
+	flex: 1;
+	padding: 10px;
+	border-radius: 30px 0 0 30px;
+	border: 1px solid #ddd;
+	border-right: none;
+	margin-top: 1em;
+}
+
+.search-btn {
+	width: 90px;
+	padding: 10px 20px;
+	border-radius: 0 30px 30px 0;
+	border: 1px solid #ddd;
+	border-left: none;
+	background-color: #fff;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1em;
+}
+
+.search-btn:active {
+	transform: scale(0.95); /* 縮小至 95% */
+	background-color: #e6e6e6; /* 改變背景顏色 */
+	transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+.search-btn:hover {
+	background-color: #f7f7f7;
+}
+
+.search-btn i {
+	color: #333;
+}
+
+.search-bar:focus-within .search-input, .search-bar:focus-within .search-btn
+	{
+	box-shadow: 0 0 5px rgba(0, 174, 255, 0.5);
+	border-color: rgba(0, 174, 255, 0.5);
+}
+
+/* 年齡篩選 */
+.range_container {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: 1% auto;
+}
+
+.sliders_control {
+	position: relative;
+	min-height: 1rem;
+}
+
+.form_control {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1rem;
+	color: black;
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	pointer-events: all;
+	width: 1rem;
+	height: 1rem;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #C6C6C6;
+	cursor: pointer;
+}
+
+input[type=range]::-moz-range-thumb {
+	pointer-events: all;
+	width: 1rem;
+	height: 1rem;
+	background-color: #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 0 1px #C6C6C6;
+	cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-thumb:hover {
+	background: #f7f7f7;
+}
+
+input[type=range]::-webkit-slider-thumb:active {
+	box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+	-webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe;
+}
+
+input[type="number"] {
+	color: #8a8383;
+	width: 5rem;
+	height: 30px;
+	font-size: 20px;
+	border: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button
+	{
+	opacity: 1;
+}
+
+input[type="range"] {
+	-webkit-appearance: none;
+	appearance: none;
+	height: 2px;
+	width: 100%;
+	position: absolute;
+	background-color: #C6C6C6;
+	pointer-events: none;
+}
+
+#ageFromSlider, #priceFromSlider {
+	height: 0;
+	z-index: 1;
+}
+
+.sort-bar {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.sort-options span {
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.sort-select-wrapper {
+	position: relative;
+	/*margin-right: 10px;*/
+}
+
+.sort-select-wrapper .sort-label {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	font-size: 12px;
+	color: #00c3a0; /* 可以根據需要調整顏色 */
+	background: #fff;
+	padding: 0 5px;
+}
+
+.sort-text {
+	/*margin-right: 10px;*/
+	font-size: 16px;
+	display: flex;
+	align-items: center;
+}
+
+.sort-select {
+	border-radius: 20px;
+	padding: 5px 20px;
+	border: 1px solid #ddd;
+	appearance: none; /* 去除預設樣式 */
+	-webkit-appearance: none; /* 去除預設樣式 */
+	-moz-appearance: none; /* 去除預設樣式 */
+	background-color: #fff;
+	background-image:
+		url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24"><path fill="none" stroke="%23333" stroke-width="2" d="M7 10l5 5 5-5z"/></svg>');
+	background-repeat: no-repeat;
+	background-position: right 10px center;
+	background-size: 10px 10px;
+}
+
+.sort-select:focus {
+	outline: none;
+}
+
+/*** 篩選表格 ***/
+.filter-table-area {
+	display: none;
+}
+
+.filter-table {
+	width: 90%;
+}
+
+.table-style {
+	border: #A5A5A5;
+}
+
+.title-td {
+	width: 9%;
+	text-align: center;
+	background-color: #EAEAEA !important;
+	vertical-align: middle;
+}
+
+.tag-list {
+	display: flex;
+	padding: 0;
+	vertical-align: middle;
+}
+
+.wrap-div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 92%;
+}
+
+.tag-list ul {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	width: 100%;
+}
+
+.tag-list ul li {
+	display: flex; /* 使用 flexbox 布局 */
+	justify-content: left; /* 水平置中 */
+	align-items: center; /* 垂直置中 */
+	width: 16%;
+	vertical-align: middle;
+	margin-top: 0.2rem;
+}
+
+.tag-list ul li span {
+	cursor: pointer;
+}
+
+.tag-list ul li span:hover {
+	color: #00c3a0;
+}
+
+.tag-list ul li span.active {
+	color: white;
+	background-color: #d38c12;
+	padding: 2px 7px;
+	border-radius: 3px;
+	font-weight: 900;
+}
+
+.seeMore-btn {
+	border: #A5A5A5 1px solid;
+	border-radius: 0.3rem;
+	background-color: white;
+}
+
+/*** 卡片區域 ***/
+.card-deck .card {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	transition: box-shadow 0.3s ease-in-out;
+	margin-top: 2em;
+	height: auto;
+	width: 100%;
+	position: relative; /* 使子元素的定位基於此元素 */
+	overflow: hidden; /* 隱藏超出的部分 */
+}
+
+.card-deck .card:hover {
+	box-shadow: 5px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-deck .card-img-top {
+	border-radius: 5px 5px 0 0;
+	width: 100%; /* 設置圖片寬度為父容器寬度 */
+	height: 200px; /* 固定高度 */
+	object-fit: cover; /* 保持圖片比例並裁剪多餘部分 */
+	object-position: center; /* 圖片的中心作為裁剪基準點 */
+}
+
+.card-deck .card-body {
+	padding: 15px;
+}
+
+.card-body {
+	overflow: hidden;
+}
+
+.card-deck .card-title {
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.card-deck .card-text {
+	font-size: 14px;
+	color: #2c2c2c;
+}
+
+.card-text {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 3;
+	line-height: 1.5; /* 每行高度 */
+	max-height: calc(1.5em * 3); /* 限制總高度為3行 */
+	min-height: calc(1.5em * 3); /* 限制總高度為3行 */
+}
+
+/*** 評論星等 ***/
+.rating {
+	display: flex;
+	align-items: center;
+	font-size: 14px;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+.rating-number {
+	margin-right: 5px;
+	color: #333;
+}
+
+.stars {
+	display: flex;
+}
+
+.star {
+	color: #f0ad4e; /* 使用橙色來表示已填充的星 */
+	margin-right: 2px;
+}
+
+.star:last-child {
+	margin-right: 0;
+}
+
+.rating-count {
+	margin-left: 5px;
+	color: #666;
+}
+
+/*** 收藏按鈕 ***/
+.favorite-btn {
+	position: absolute;
+	top: 36%;
+	right: 2%;
+	cursor: pointer;
+	transition: color 0.3s ease;
+	border: solid 2px #ff0000;
+	border-radius: 50%;
+	padding: 0.4rem;
+	background-color: white;
+	z-index: 2; /* 確保按鈕位於前面 */
+	height: 2rem;
+	width: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*** 提示文字 ***/
+.favorite-message {
+	position: absolute;
+	top: calc(48% + 5px); /* 調整位置，使其位於按鈕下方 */
+	right: 0.5rem;
+	transform: translateX(-50%);
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	padding: 0.2rem 0.5rem;
+	border-radius: 5px;
+	font-size: 12px;
+	white-space: nowrap; /* 防止文字換行 */
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/*
+.favorite-message::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}*/

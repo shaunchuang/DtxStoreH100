@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0, viewport-fit=cover" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+        <script>
+
+            async function upload() {
+                const fileInput = document.getElementById('imgFile');
+                if (fileInput.files.length === 0) {
+                    alert("請選擇一個檔案");
+                    return;
+                }
+                const file = fileInput.files[0];
+                const formData = new FormData();
+                formData.append("file", file);
+                try {
+                    const response = await fetch("/File/api/upload/path/", {
+                        method: "POST",
+                        body: formData
+                    });
+                    const result = await response.json();
+                    if (result.success) {
+                        document.getElementById('preview').src = result.message;
+                    } else {
+                        alert("上傳失敗: " + result.message);
+                    }
+                } catch (error) {
+                    console.error("上傳失敗", error);
+                    alert("上傳失敗");
+                }
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <form id="uploadForm" method="post" enctype="multipart/form-data" action="/File/api/upload/path/" >
+            <div >
+                <div>
+                    <div>
+                        <input type="file" name="imgFile" id="imgFile" >
+                    </div>
+                </div>
+                <input type="button" value="上傳" onclick="upload()" />
+                <div>
+                    <img src="" id="preview" >
+                </div>
+            </div>
+        </form>
+
+    </body>
+
+</html>

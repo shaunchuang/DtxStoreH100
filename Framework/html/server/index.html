@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>治療師首頁</title>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+        <script>
+            const cpuUsageData = [];
+    
+            function createChart() {
+                const ctx = document.getElementById('cpuUsage');
+                //
+                const labels = new Array();
+                const distracts = new Array();
+                const compliances = new Array();
+                //
+                for (let i in statisticData.trade) {
+                    const value = statisticData.trade[i];
+                    labels.push(value.date);
+                    if (value.distract < 0) {
+                        distracts.push(null);
+                    } else {
+                        const v = Math.floor(value.distract * 10) / 10;
+                        distracts.push(v);
+                    }
+                }
+                for (let i in statisticData.compliance) {
+                    const value = statisticData.compliance[i];
+                    if (!value.assigned) {
+                        compliances.push(null);
+                    } else {
+                        const v = Math.floor((value.finished / value.assigned) * 1000) / 10;
+                        compliances.push(v);
+                    }
+                }
+                //
+                const data = {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '分心程度',
+                            data: distracts,
+                            borderColor: 'rgb(46, 137, 255)',
+                            backgroundColor: 'rgb(46, 137, 255)'
+                        },
+                        {
+                            label: '遵循度',
+                            data: compliances,
+                            borderColor: 'rgb(255, 166, 47)',
+                            backgroundColor: 'rgb(255, 166, 47)'
+                        }
+                    ]
+                };
+                const config = {
+                    type: 'line',
+                    data: data,
+                    options: {
+                        responsive: true,
+                        plugins: {
+                            legend: {
+                                position: 'top',
+                            }
+                        },
+                        scales: {
+                            y: {
+                                title: {
+                                    display: true,
+                                    text: '分心程度(%)'
+                                },
+                                min: 0,
+                                max: 100
+                            }
+                        }
+                    }
+                };
+                //
+                new Chart(ctx, config);
+
+            }
+        </script>
+
+        <style>
+            .chart_container {
+                width: 100%;
+                height: 30vh;
+                background: transparent;
+                margin: 1vh 0 1vh 0;
+            }
+
+            .chart {
+                background: transparent;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        <div>
+            <div class='chart_container' >
+                <canvas id='cpuUsage' class='chart' ></canvas>
+            </div>
+        </div>
+    </body>
+
+</html>

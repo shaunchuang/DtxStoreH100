@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/*** Header 區塊***/
+header {
+	background-color: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 66%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	height: 40px;
+	margin-right: 10px;
+}
+
+.header-nav-bar nav ul {
+	list-style: none;
+	display: flex;
+}
+
+.header-nav-bar nav ul li {
+	margin-right: 20px;
+}
+
+.header-nav-bar nav ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size: 16px;
+}
+
+.auth-buttons {
+	display: flex;
+}
+
+.auth-buttons button {
+	background-color: #00c3a0;
+	border: none;
+	color: #fff;
+	padding: 10px 20px;
+	margin-left: 10px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+.auth-buttons .login {
+	background-color: #ddd;
+	color: #333;
+}
+
+/*** banner-title 區塊 ***/
+.banner {
+	text-align: center;
+	padding: 50px 20px;
+	background: url('/html/dtxstore/images/dtxstore/首頁-Banner.png') no-repeat
+		center center;
+	background-size: cover;
+}
+
+.banner h1 {
+	font-size: 36px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.stats {
+	display: block;
+}
+
+.stats .stat-border {
+	border-right-color: gray;
+	border-right-width: 3px;
+	border-right-style: solid;
+}
+
+.stat {
+	padding: 0 10px;
+	text-align: center;
+	flex: 1;
+}
+
+.stat .stat-number {
+	font-size: 36px;
+	color: #f1c40f;
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+.stat .stat-label {
+	font-size: 14px;
+	color: #333;
+}
+
+.banner-title {
+	font-weight: 900;
+	font-size: 40px;
+	text-align: left;
+}
+
+.banner-title span {
+	color: #1abc9c;
+	display: block;
+}
+
+.banner-intro {
+	text-align: left;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.main-container {
+	width: 70%;
+}

@@ -1,0 +1,83 @@
+/*** 側邊欄 ***/
+.sidebar {
+	height: auto;
+	border-right: 1px solid #e0e0e0;
+	padding-right: 0;
+}
+
+/*** 使用者資料 ***/
+.profile {
+	border-bottom-color: #e0e0e0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	padding: 1em;
+}
+
+.profile img {
+	width: 3.5em;
+	height: 3.5em;
+	object-fit: cover;
+}
+
+.img-area {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.profile h3 {
+	font-size: 18px;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.profile p {
+	color: #666;
+	font-size: 14px;
+	text-align: left;
+	overflow: hidden;
+	margin-bottom: 0.2rem;
+}
+
+/*** 導覽列 ***/
+.leftnav {
+	margin-top: 1em;
+}
+
+.leftnav ul {
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+
+.leftnav ul li {
+	margin-bottom: 15px;
+}
+
+.leftnav-title {
+	display: block;
+	padding: 0.5rem 1.5rem;
+	color: #333;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+.leftnav-title i {
+	float: right;
+}
+
+.leftnav-title ul {
+	padding-left: 20px;
+}
+
+.leftnav-list-text {
+	font-size: 1rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #333;
+}
+
+.leftnav-dropdown {
+	margin-left: 3em;
+}
