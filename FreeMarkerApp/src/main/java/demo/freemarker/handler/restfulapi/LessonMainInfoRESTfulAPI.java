@@ -79,7 +79,7 @@ public class LessonMainInfoRESTfulAPI extends RESTfulAPI {
     @RESTfulAPIDefine(url = "get", methods = "get", description = "取得教案詳細資訊")
     private String get(HttpExchange exchange) throws IOException {
         String lessonId = getValueOfKeyInPath(exchange.getRequestURI(), "lessonId");
-        System.out.println("lessonId" + lessonId);
+        System.out.println("lessonId: " + lessonId);
         LessonMainInfo lesson = LessonMainInfoAPI.getInstance().getLessonMainInfo(Long.parseLong(lessonId));
         exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
         return EntityUtility.toJSONString(lesson);

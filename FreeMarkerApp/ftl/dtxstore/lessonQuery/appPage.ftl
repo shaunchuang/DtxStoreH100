@@ -745,7 +745,7 @@ function addAchAndStats(achMesg, statMesg) {
     // 處理成就資料
     if (Array.isArray(achMesg) && achMesg.length > 0) {
         $.each(achMesg, function (index, achData) {
-            const achIcon = achData.unlockedIconUrl;
+            const achIcon = '/File/api/file/path' + achData.unlockedIconUrl;
             const achName = achData.displayName;
             const achDesc = achData.description;
 
