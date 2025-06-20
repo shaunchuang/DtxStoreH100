@@ -18,6 +18,7 @@ import demo.freemarker.api.LessonStatisticsAPI;
 import demo.freemarker.api.LessonSystemRequirementAPI;
 import demo.freemarker.api.LessonTagAPI;
 import demo.freemarker.api.LessonVideoAPI;
+import demo.freemarker.core.GsonUtil;
 import demo.freemarker.core.ImageUtil;
 import demo.freemarker.model.DtxTag;
 import demo.freemarker.model.LessonAchievement;
@@ -81,8 +82,11 @@ public class LessonMainInfoRESTfulAPI extends RESTfulAPI {
         String lessonId = getValueOfKeyInPath(exchange.getRequestURI(), "lessonId");
         System.out.println("lessonId: " + lessonId);
         LessonMainInfo lesson = LessonMainInfoAPI.getInstance().getLessonMainInfo(Long.parseLong(lessonId));
+        
+        String lessonObject = GsonUtil.toJson(lesson);
+        System.out.println("lessonObject: " + lessonObject);
         exchange.sendResponseHeaders(HttpURLConnection.HTTP_OK, 0);
-        return EntityUtility.toJSONString(lesson);
+        return lessonObject;
     }
 
     @RESTfulAPIDefine(url = "filterlist", methods = "post", description = "取得篩選排序後教案清單")
