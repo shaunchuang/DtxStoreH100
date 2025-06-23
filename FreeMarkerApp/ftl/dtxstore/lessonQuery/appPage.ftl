@@ -596,7 +596,7 @@ function requestLessonApi() {
                 lessonRequirement, lessonComment, lessonNews, lessonResearch, lessonTag] = responses;
 
             //console.log('Lesson Achievement:', lessonAchievement);
-            //console.log('Lesson Statistic:', lessonStatistic);
+            console.log('Lesson Statistic:', lessonStatistic);
             //console.log('Lesson Image:', lessonImage);
             console.log('Lesson Requirement:', lessonRequirement);
             //console.log('Lesson Comment:', lessonComment);
@@ -778,12 +778,17 @@ function addAchAndStats(achMesg, statMesg) {
     // 處理統計資料
     if (Array.isArray(statMesg) && statMesg.length > 0) {
         $.each(statMesg, function (index, statData) {
-            const statName = statData.apiName;
+            const statName = statData.apiName || '';
+
+            const displayName = statData.displayName || statName;
 
             const tr = $('<tr></tr>');
-            const td = $('<td></td>').text(statName);
 
-            tr.append(td);
+            const td1 = $('<td></td>').text(displayName);
+
+            const td2 = $('<td></td>').text(statName);
+
+            tr.append(td1, td2);
 
             $('.statsTable tbody').append(tr);
         });
