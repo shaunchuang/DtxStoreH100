@@ -45,7 +45,7 @@
 									<td class="lesson-label">建立Low Code教案</td>
 									<td>
 										<div class="lesson-intro-input">
-											<button onclick="window.open('http://127.0.0.1:8601/editor.html', '_blank')" class="btn btn-primary">
+											<button onclick="window.open('http://140.96.170.75:8272/editor.html', '_blank')" class="btn btn-primary">
 												開啟 Low Code 編輯器
 											</button>
 											<button onclick="window.open('/File/api/file/path/20250506_135909_Project.html', '_blank')" class="btn btn-secondary">
