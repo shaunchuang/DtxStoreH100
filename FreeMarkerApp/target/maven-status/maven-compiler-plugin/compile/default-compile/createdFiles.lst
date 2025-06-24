@@ -12,6 +12,7 @@ demo\freemarker\api\LessonImageAPI.class
 demo\freemarker\dao\LessonMainInfoDAO.class
 demo\freemarker\handler\restfulapi\LessonTagRESTfulAPI.class
 demo\freemarker\model\LessonImage.class
+demo\freemarker\model\LessonImage$LessonImageType.class
 demo\freemarker\api\RoleAPI.class
 demo\freemarker\handler\restfulapi\LessonMainInfoRESTfulAPI.class
 demo\freemarker\handler\restfulapi\LessonSystemRequirementRESTfulAPI.class
