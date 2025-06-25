@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2025-06-25T03:55:50.130515700Z</date>
-  <millis>1750823750130</millis>
-  <nanos>515700</nanos>
+  <date>2025-06-25T04:47:48.702327800Z</date>
+  <millis>1750826868702</millis>
+  <nanos>327800</nanos>
   <sequence>0</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>初始化語言庫 ...</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.171654100Z</date>
-  <millis>1750823750171</millis>
-  <nanos>654100</nanos>
+  <date>2025-06-25T04:47:48.743299900Z</date>
+  <millis>1750826868743</millis>
+  <nanos>299900</nanos>
   <sequence>1</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Load language for en_US, file=messages_en_US.properties</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.175148100Z</date>
-  <millis>1750823750175</millis>
-  <nanos>148100</nanos>
+  <date>2025-06-25T04:47:48.744300600Z</date>
+  <millis>1750826868744</millis>
+  <nanos>300600</nanos>
   <sequence>2</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>Load language for zh_TW, file=messages_zh_TW.properties</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.175148100Z</date>
-  <millis>1750823750175</millis>
-  <nanos>148100</nanos>
+  <date>2025-06-25T04:47:48.745314600Z</date>
+  <millis>1750826868745</millis>
+  <nanos>314600</nanos>
   <sequence>3</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -50,9 +50,9 @@
   <message>初始化語言庫 OK</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.374026200Z</date>
-  <millis>1750823750374</millis>
-  <nanos>26200</nanos>
+  <date>2025-06-25T04:47:48.928450800Z</date>
+  <millis>1750826868928</millis>
+  <nanos>450800</nanos>
   <sequence>4</sequence>
   <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>新增 RootAPI 實例</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.380144Z</date>
-  <millis>1750823750380</millis>
-  <nanos>144000</nanos>
+  <date>2025-06-25T04:47:48.933604Z</date>
+  <millis>1750826868933</millis>
+  <nanos>604000</nanos>
   <sequence>5</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>初始化 LiteHttpd Service 完成</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.390533300Z</date>
-  <millis>1750823750390</millis>
-  <nanos>533300</nanos>
+  <date>2025-06-25T04:47:48.942462400Z</date>
+  <millis>1750826868942</millis>
+  <nanos>462400</nanos>
   <sequence>6</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>建立 dtxstore FTL處理器, ClassName: demo.freemarker.handler.page.DtxStorePage</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.394681600Z</date>
-  <millis>1750823750394</millis>
-  <nanos>681600</nanos>
+  <date>2025-06-25T04:47:48.946564300Z</date>
+  <millis>1750826868946</millis>
+  <nanos>564300</nanos>
   <sequence>7</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>Assign method register to pattern dtxstore/register</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.395674700Z</date>
-  <millis>1750823750395</millis>
-  <nanos>674700</nanos>
+  <date>2025-06-25T04:47:48.947585600Z</date>
+  <millis>1750826868947</millis>
+  <nanos>585600</nanos>
   <sequence>8</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>Assign method query to pattern dtxstore/query</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.395674700Z</date>
-  <millis>1750823750395</millis>
-  <nanos>674700</nanos>
+  <date>2025-06-25T04:47:48.947585600Z</date>
+  <millis>1750826868947</millis>
+  <nanos>585600</nanos>
   <sequence>9</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>Assign method home to pattern dtxstore/home</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.395674700Z</date>
-  <millis>1750823750395</millis>
-  <nanos>674700</nanos>
+  <date>2025-06-25T04:47:48.948568900Z</date>
+  <millis>1750826868948</millis>
+  <nanos>568900</nanos>
   <sequence>10</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -134,9 +134,9 @@
   <message>Assign method application to pattern dtxstore/application</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.396739400Z</date>
-  <millis>1750823750396</millis>
-  <nanos>739400</nanos>
+  <date>2025-06-25T04:47:48.948568900Z</date>
+  <millis>1750826868948</millis>
+  <nanos>568900</nanos>
   <sequence>11</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -146,34 +146,10 @@
   <message>Assign method index1 to pattern dtxstore/</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.396739400Z</date>
-  <millis>1750823750396</millis>
-  <nanos>739400</nanos>
+  <date>2025-06-25T04:47:48.948568900Z</date>
+  <millis>1750826868948</millis>
+  <nanos>568900</nanos>
   <sequence>12</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method library to pattern dtxstore/library</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.397741700Z</date>
-  <millis>1750823750397</millis>
-  <nanos>741700</nanos>
-  <sequence>13</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method logout to pattern dtxstore/logout</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.397741700Z</date>
-  <millis>1750823750397</millis>
-  <nanos>741700</nanos>
-  <sequence>14</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -182,9 +158,33 @@
   <message>Assign method login to pattern dtxstore/login</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.398775Z</date>
-  <millis>1750823750398</millis>
-  <nanos>775000</nanos>
+  <date>2025-06-25T04:47:48.949573600Z</date>
+  <millis>1750826868949</millis>
+  <nanos>573600</nanos>
+  <sequence>13</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method library to pattern dtxstore/library</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.949573600Z</date>
+  <millis>1750826868949</millis>
+  <nanos>573600</nanos>
+  <sequence>14</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method logout to pattern dtxstore/logout</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.949573600Z</date>
+  <millis>1750826868949</millis>
+  <nanos>573600</nanos>
   <sequence>15</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -194,9 +194,9 @@
   <message>Assign method steamAppImport to pattern dtxstore/manage/SteamAppImport</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.398775Z</date>
-  <millis>1750823750398</millis>
-  <nanos>775000</nanos>
+  <date>2025-06-25T04:47:48.950685600Z</date>
+  <millis>1750826868950</millis>
+  <nanos>685600</nanos>
   <sequence>16</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -206,58 +206,10 @@
   <message>Assign method manageList to pattern dtxstore/manage/list</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.398775Z</date>
-  <millis>1750823750398</millis>
-  <nanos>775000</nanos>
+  <date>2025-06-25T04:47:48.950685600Z</date>
+  <millis>1750826868950</millis>
+  <nanos>685600</nanos>
   <sequence>17</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method developScratch to pattern dtxstore/develop/scratch</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.399849100Z</date>
-  <millis>1750823750399</millis>
-  <nanos>849100</nanos>
-  <sequence>18</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method manageLesson to pattern dtxstore/manage/edit</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.399849100Z</date>
-  <millis>1750823750399</millis>
-  <nanos>849100</nanos>
-  <sequence>19</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method manageUpload to pattern dtxstore/manage/upload</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.399849100Z</date>
-  <millis>1750823750399</millis>
-  <nanos>849100</nanos>
-  <sequence>20</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method pointsHistory to pattern dtxstore/account/pointhistory</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:50.399849100Z</date>
-  <millis>1750823750399</millis>
-  <nanos>849100</nanos>
-  <sequence>21</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -266,10 +218,10 @@
   <message>Assign method dashboard to pattern dtxstore/dashboard</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.400911Z</date>
-  <millis>1750823750400</millis>
-  <nanos>911000</nanos>
-  <sequence>22</sequence>
+  <date>2025-06-25T04:47:48.950685600Z</date>
+  <millis>1750826868950</millis>
+  <nanos>685600</nanos>
+  <sequence>18</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -278,9 +230,57 @@
   <message>Assign method index0 to pattern dtxstore</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.402021600Z</date>
-  <millis>1750823750402</millis>
-  <nanos>21600</nanos>
+  <date>2025-06-25T04:47:48.951676900Z</date>
+  <millis>1750826868951</millis>
+  <nanos>676900</nanos>
+  <sequence>19</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method developScratch to pattern dtxstore/develop/scratch</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.951676900Z</date>
+  <millis>1750826868951</millis>
+  <nanos>676900</nanos>
+  <sequence>20</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method manageLesson to pattern dtxstore/manage/edit</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.951676900Z</date>
+  <millis>1750826868951</millis>
+  <nanos>676900</nanos>
+  <sequence>21</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method manageUpload to pattern dtxstore/manage/upload</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.952665Z</date>
+  <millis>1750826868952</millis>
+  <nanos>665000</nanos>
+  <sequence>22</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method pointsHistory to pattern dtxstore/account/pointhistory</message>
+</record>
+<record>
+  <date>2025-06-25T04:47:48.953649900Z</date>
+  <millis>1750826868953</millis>
+  <nanos>649900</nanos>
   <sequence>23</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -290,9 +290,9 @@
   <message>初始化 dtxstore FTL處理器 OK</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.403080100Z</date>
-  <millis>1750823750403</millis>
-  <nanos>80100</nanos>
+  <date>2025-06-25T04:47:48.954633300Z</date>
+  <millis>1750826868954</millis>
+  <nanos>633300</nanos>
   <sequence>24</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -302,9 +302,9 @@
   <message>初始化 FreeMarker 樣版引擎 ...</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.454699200Z</date>
-  <millis>1750823750454</millis>
-  <nanos>699200</nanos>
+  <date>2025-06-25T04:47:49.007612700Z</date>
+  <millis>1750826869007</millis>
+  <nanos>612700</nanos>
   <sequence>25</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -314,9 +314,9 @@
   <message>初始化 FreeMarker 樣版引擎 OK</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.455708600Z</date>
-  <millis>1750823750455</millis>
-  <nanos>708600</nanos>
+  <date>2025-06-25T04:47:49.007612700Z</date>
+  <millis>1750826869007</millis>
+  <nanos>612700</nanos>
   <sequence>26</sequence>
   <logger>itri.sstc.framework.core.httpd.session.HttpSessionManager</logger>
   <level>INFO</level>
@@ -326,9 +326,9 @@
   <message>啟用 HttpSessionManager OK</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.456760600Z</date>
-  <millis>1750823750456</millis>
-  <nanos>760600</nanos>
+  <date>2025-06-25T04:47:49.008602300Z</date>
+  <millis>1750826869008</millis>
+  <nanos>602300</nanos>
   <sequence>27</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
@@ -338,9 +338,9 @@
   <message>啟動 LiteHttpd Service(Port 8261)</message>
 </record>
 <record>
-  <date>2025-06-25T03:55:50.456760600Z</date>
-  <millis>1750823750456</millis>
-  <nanos>760600</nanos>
+  <date>2025-06-25T04:47:49.009625400Z</date>
+  <millis>1750826869009</millis>
+  <nanos>625400</nanos>
   <sequence>28</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
@@ -348,928 +348,4 @@
   <method>log</method>
   <thread>1</thread>
   <message>Start FreeMarkerService OK</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.785132100Z</date>
-  <millis>1750823756785</millis>
-  <nanos>132100</nanos>
-  <sequence>29</sequence>
-  <logger>itri.sstc.framework.core.httpd.session.HttpSessionManager</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.session.HttpSessionManager</class>
-  <method>createSession</method>
-  <thread>36</thread>
-  <message>Create session SESSION_63c7213a-dc08-4136-83c8-c34fa098c5d3 for /ftl/dtxstore</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.785132100Z</date>
-  <millis>1750823756785</millis>
-  <nanos>132100</nanos>
-  <sequence>30</sequence>
-  <logger>itri.sstc.framework.core.httpd.HttpService</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.HttpService</class>
-  <method>log</method>
-  <thread>36</thread>
-  <message>Create new Session: SESSION_63c7213a-dc08-4136-83c8-c34fa098c5d3</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.786105400Z</date>
-  <millis>1750823756786</millis>
-  <nanos>105400</nanos>
-  <sequence>31</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore]</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.787332200Z</date>
-  <millis>1750823756787</millis>
-  <nanos>332200</nanos>
-  <sequence>32</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.870310200Z</date>
-  <millis>1750823756870</millis>
-  <nanos>310200</nanos>
-  <sequence>33</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 84ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:56.905409Z</date>
-  <millis>1750823756905</millis>
-  <nanos>409000</nanos>
-  <sequence>34</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>39</thread>
-  <message>"/security/api/" Call API captcha</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:58.309046Z</date>
-  <millis>1750823758309</millis>
-  <nanos>46000</nanos>
-  <sequence>35</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore]</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:58.310045600Z</date>
-  <millis>1750823758310</millis>
-  <nanos>45600</nanos>
-  <sequence>36</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:58.311080500Z</date>
-  <millis>1750823758311</millis>
-  <nanos>80500</nanos>
-  <sequence>37</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 2ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:55:58.319296200Z</date>
-  <millis>1750823758319</millis>
-  <nanos>296200</nanos>
-  <sequence>38</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>42</thread>
-  <message>"/security/api/" Call API captcha</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:06.158312900Z</date>
-  <millis>1750823766158</millis>
-  <nanos>312900</nanos>
-  <sequence>39</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>43</thread>
-  <message>"/security/api/" Call API login</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.457627800Z</date>
-  <millis>1750823770457</millis>
-  <nanos>627800</nanos>
-  <sequence>40</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/dashboard]</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.458703600Z</date>
-  <millis>1750823770458</millis>
-  <nanos>703600</nanos>
-  <sequence>41</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.544577600Z</date>
-  <millis>1750823770544</millis>
-  <nanos>577600</nanos>
-  <sequence>42</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 87ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.558826900Z</date>
-  <millis>1750823770558</millis>
-  <nanos>826900</nanos>
-  <sequence>43</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>46</thread>
-  <message>Thread[46] GET /html/dtxstore/style/lessonQuery/rSlider.min.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.562058500Z</date>
-  <millis>1750823770562</millis>
-  <nanos>58500</nanos>
-  <sequence>44</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>47</thread>
-  <message>Thread[47] GET /html/dtxstore/style/login/dtx-login-leftnav.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.562058500Z</date>
-  <millis>1750823770562</millis>
-  <nanos>58500</nanos>
-  <sequence>45</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>48</thread>
-  <message>Thread[48] GET /html/dtxstore/style/login/dtx-login-header.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.563059500Z</date>
-  <millis>1750823770563</millis>
-  <nanos>59500</nanos>
-  <sequence>46</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>49</thread>
-  <message>Thread[49] GET /html/dtxstore/style/login/dtx-login-dashboard.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.563059500Z</date>
-  <millis>1750823770563</millis>
-  <nanos>59500</nanos>
-  <sequence>47</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>51</thread>
-  <message>Thread[51] GET /html/dtxstore/style/lessonQuery/dtx-app.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.564032200Z</date>
-  <millis>1750823770564</millis>
-  <nanos>32200</nanos>
-  <sequence>48</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>50</thread>
-  <message>Thread[50] GET /html/dtxstore/images/dtxstore/avatar.png</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.573400200Z</date>
-  <millis>1750823770573</millis>
-  <nanos>400200</nanos>
-  <sequence>51</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>54</thread>
-  <message>Thread[54] GET /html/dtxstore/script/login/dashboard.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.573400200Z</date>
-  <millis>1750823770573</millis>
-  <nanos>400200</nanos>
-  <sequence>49</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>52</thread>
-  <message>Thread[52] GET /html/dtxstore/script/commonPage/popper.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.573400200Z</date>
-  <millis>1750823770573</millis>
-  <nanos>400200</nanos>
-  <sequence>52</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>55</thread>
-  <message>Thread[55] GET /html/dtxstore/images/dtxstore/lesson-title.jpg</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.573400200Z</date>
-  <millis>1750823770573</millis>
-  <nanos>400200</nanos>
-  <sequence>50</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>53</thread>
-  <message>Thread[53] GET /html/dtxstore/script/commonPage/leftnav.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.574627300Z</date>
-  <millis>1750823770574</millis>
-  <nanos>627300</nanos>
-  <sequence>53</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>56</thread>
-  <message>Thread[56] GET /html/dtxstore/script/commonPage/chart.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:10.626792400Z</date>
-  <millis>1750823770626</millis>
-  <nanos>792400</nanos>
-  <sequence>54</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>57</thread>
-  <message>Thread[57] GET /html/dtxstore/style/fontawesome-6/webfonts/fa-regular-400.woff2</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.156391600Z</date>
-  <millis>1750823773156</millis>
-  <nanos>391600</nanos>
-  <sequence>55</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/query]</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.156391600Z</date>
-  <millis>1750823773156</millis>
-  <nanos>391600</nanos>
-  <sequence>56</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.177335700Z</date>
-  <millis>1750823773177</millis>
-  <nanos>335700</nanos>
-  <sequence>57</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 21ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.196311500Z</date>
-  <millis>1750823773196</millis>
-  <nanos>311500</nanos>
-  <sequence>58</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>59</thread>
-  <message>Thread[59] GET /html/dtxstore/script/commonPage/rSlider.min.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.196311500Z</date>
-  <millis>1750823773196</millis>
-  <nanos>311500</nanos>
-  <sequence>59</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>58</thread>
-  <message>Thread[58] GET /html/dtxstore/style/lessonQuery/dtx-query.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.237936500Z</date>
-  <millis>1750823773237</millis>
-  <nanos>936500</nanos>
-  <sequence>60</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>61</thread>
-  <message>"/DtxTag/api/" Call API list</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.237936500Z</date>
-  <millis>1750823773237</millis>
-  <nanos>936500</nanos>
-  <sequence>61</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>60</thread>
-  <message>"/LessonMainInfo/api/" Call API filterlist</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.456216900Z</date>
-  <millis>1750823773456</millis>
-  <nanos>216900</nanos>
-  <sequence>62</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>62</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.457194100Z</date>
-  <millis>1750823773457</millis>
-  <nanos>194100</nanos>
-  <sequence>63</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>63</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.458166100Z</date>
-  <millis>1750823773458</millis>
-  <nanos>166100</nanos>
-  <sequence>64</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>64</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.458166100Z</date>
-  <millis>1750823773458</millis>
-  <nanos>166100</nanos>
-  <sequence>65</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>65</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.464358300Z</date>
-  <millis>1750823773464</millis>
-  <nanos>358300</nanos>
-  <sequence>66</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>66</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.466305600Z</date>
-  <millis>1750823773466</millis>
-  <nanos>305600</nanos>
-  <sequence>67</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>67</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.479936100Z</date>
-  <millis>1750823773479</millis>
-  <nanos>936100</nanos>
-  <sequence>68</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>68</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.481889400Z</date>
-  <millis>1750823773481</millis>
-  <nanos>889400</nanos>
-  <sequence>70</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>69</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:13.481889400Z</date>
-  <millis>1750823773481</millis>
-  <nanos>889400</nanos>
-  <sequence>69</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>70</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.822414100Z</date>
-  <millis>1750823782822</millis>
-  <nanos>414100</nanos>
-  <sequence>71</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/manage/upload]</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.823584Z</date>
-  <millis>1750823782823</millis>
-  <nanos>584000</nanos>
-  <sequence>72</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.858230800Z</date>
-  <millis>1750823782858</millis>
-  <nanos>230800</nanos>
-  <sequence>73</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 36ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.874010100Z</date>
-  <millis>1750823782874</millis>
-  <nanos>10100</nanos>
-  <sequence>74</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>71</thread>
-  <message>Thread[71] GET /html/dtxstore/style/quill-2.0.3.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.878607100Z</date>
-  <millis>1750823782878</millis>
-  <nanos>607100</nanos>
-  <sequence>75</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>72</thread>
-  <message>Thread[72] GET /html/dtxstore/style/datatables.min.css</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.878607100Z</date>
-  <millis>1750823782878</millis>
-  <nanos>607100</nanos>
-  <sequence>76</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>74</thread>
-  <message>Thread[74] GET /html/dtxstore/script/datatables.min.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.880557500Z</date>
-  <millis>1750823782880</millis>
-  <nanos>557500</nanos>
-  <sequence>77</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>73</thread>
-  <message>Thread[73] GET /html/dtxstore/script/quill-2.0.3.js</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:22.985324300Z</date>
-  <millis>1750823782985</millis>
-  <nanos>324300</nanos>
-  <sequence>78</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>75</thread>
-  <message>"LessonTag/api/" Call API lesson</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:23.001941600Z</date>
-  <millis>1750823783001</millis>
-  <nanos>941600</nanos>
-  <sequence>79</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>76</thread>
-  <message>"/DtxTag/api/" Call API list</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:50.021252600Z</date>
-  <millis>1750823810021</millis>
-  <nanos>252600</nanos>
-  <sequence>80</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/manage/list]</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:50.021252600Z</date>
-  <millis>1750823810021</millis>
-  <nanos>252600</nanos>
-  <sequence>81</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:50.034924600Z</date>
-  <millis>1750823810034</millis>
-  <nanos>924600</nanos>
-  <sequence>82</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 13ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:50.079885800Z</date>
-  <millis>1750823810079</millis>
-  <nanos>885800</nanos>
-  <sequence>83</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>77</thread>
-  <message>Thread[77] GET /html/dtxstore/script/zh-HANT.json</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:50.108600900Z</date>
-  <millis>1750823810108</millis>
-  <nanos>600900</nanos>
-  <sequence>84</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>78</thread>
-  <message>"/LessonMainInfo/api/" Call API manageList</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.622451Z</date>
-  <millis>1750823812622</millis>
-  <nanos>451000</nanos>
-  <sequence>85</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/manage/edit]</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.622451Z</date>
-  <millis>1750823812622</millis>
-  <nanos>451000</nanos>
-  <sequence>86</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.878952300Z</date>
-  <millis>1750823812878</millis>
-  <nanos>952300</nanos>
-  <sequence>87</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 256ms</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.941214600Z</date>
-  <millis>1750823812941</millis>
-  <nanos>214600</nanos>
-  <sequence>88</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>79</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.947985800Z</date>
-  <millis>1750823812947</millis>
-  <nanos>985800</nanos>
-  <sequence>89</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>80</thread>
-  <message>"LessonImage/api/" Call API lesson</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.947985800Z</date>
-  <millis>1750823812947</millis>
-  <nanos>985800</nanos>
-  <sequence>90</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>81</thread>
-  <message>"LessonAchievement/api/" Call API lesson</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.957403400Z</date>
-  <millis>1750823812957</millis>
-  <nanos>403400</nanos>
-  <sequence>91</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>82</thread>
-  <message>"LessonTag/api/" Call API lesson</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:52.971216Z</date>
-  <millis>1750823812971</millis>
-  <nanos>216000</nanos>
-  <sequence>92</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>83</thread>
-  <message>"/DtxTag/api/" Call API list</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:53.008396800Z</date>
-  <millis>1750823813008</millis>
-  <nanos>396800</nanos>
-  <sequence>93</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>62</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:53.009369500Z</date>
-  <millis>1750823813009</millis>
-  <nanos>369500</nanos>
-  <sequence>94</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>64</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:53.012289700Z</date>
-  <millis>1750823813012</millis>
-  <nanos>289700</nanos>
-  <sequence>95</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>65</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:53.015210300Z</date>
-  <millis>1750823813015</millis>
-  <nanos>210300</nanos>
-  <sequence>96</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>66</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:56:53.015210300Z</date>
-  <millis>1750823813015</millis>
-  <nanos>210300</nanos>
-  <sequence>97</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>63</thread>
-  <message>"/File/api/" Call API file</message>
-</record>
-<record>
-  <date>2025-06-25T03:57:00.068553100Z</date>
-  <millis>1750823820068</millis>
-  <nanos>553100</nanos>
-  <sequence>98</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>84</thread>
-  <message>Thread[84] GET /html/dtxstore/style/bootstrap-5.3.3-dist/js/bootstrap.min.js.map</message>
-</record>
-<record>
-  <date>2025-06-25T03:57:00.070502300Z</date>
-  <millis>1750823820070</millis>
-  <nanos>502300</nanos>
-  <sequence>99</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>85</thread>
-  <message>Thread[85] GET /html/dtxstore/script/quill.js.map</message>
-</record>
-<record>
-  <date>2025-06-25T03:57:00.090056Z</date>
-  <millis>1750823820090</millis>
-  <nanos>56000</nanos>
-  <sequence>100</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>86</thread>
-  <message>Thread[86] GET /html/dtxstore/style/bootstrap-5.3.3-dist/css/bootstrap.min.css.map</message>
-</record>
-<record>
-  <date>2025-06-25T03:57:00.090056Z</date>
-  <millis>1750823820090</millis>
-  <nanos>56000</nanos>
-  <sequence>101</sequence>
-  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
-  <method>run</method>
-  <thread>87</thread>
-  <message>Thread[87] GET /html/dtxstore/style/quill.snow.css.map</message>
-</record>
-<record>
-  <date>2025-06-25T04:01:14.653153700Z</date>
-  <millis>1750824074653</millis>
-  <nanos>153700</nanos>
-  <sequence>102</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>[dtxstore/manage/list]</message>
-</record>
-<record>
-  <date>2025-06-25T04:01:14.654176700Z</date>
-  <millis>1750824074654</millis>
-  <nanos>176700</nanos>
-  <sequence>103</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>getTemplateData</method>
-  <thread>36</thread>
-  <message>加入全域變數</message>
-</record>
-<record>
-  <date>2025-06-25T04:01:14.660375800Z</date>
-  <millis>1750824074660</millis>
-  <nanos>375800</nanos>
-  <sequence>104</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>render</method>
-  <thread>36</thread>
-  <message>FTL Process time: 7ms</message>
-</record>
-<record>
-  <date>2025-06-25T04:01:14.844305900Z</date>
-  <millis>1750824074844</millis>
-  <nanos>305900</nanos>
-  <sequence>105</sequence>
-  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
-  <level>INFO</level>
-  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
-  <method>log</method>
-  <thread>88</thread>
-  <message>"/LessonMainInfo/api/" Call API manageList</message>
 </record>
