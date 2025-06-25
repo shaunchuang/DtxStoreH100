@@ -2101,3 +2101,759 @@
   <thread>114</thread>
   <message>Thread[114] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
 </record>
+<record>
+  <date>2025-06-25T03:19:30.700799500Z</date>
+  <millis>1750821570700</millis>
+  <nanos>799500</nanos>
+  <sequence>175</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:30.700799500Z</date>
+  <millis>1750821570700</millis>
+  <nanos>799500</nanos>
+  <sequence>176</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:30.711715100Z</date>
+  <millis>1750821570711</millis>
+  <nanos>715100</nanos>
+  <sequence>177</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 11ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:30.747725200Z</date>
+  <millis>1750821570747</millis>
+  <nanos>725200</nanos>
+  <sequence>178</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>115</thread>
+  <message>Thread[115] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:30.799450300Z</date>
+  <millis>1750821570799</millis>
+  <nanos>450300</nanos>
+  <sequence>179</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>116</thread>
+  <message>Thread[116] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.455643300Z</date>
+  <millis>1750821571455</millis>
+  <nanos>643300</nanos>
+  <sequence>180</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.455643300Z</date>
+  <millis>1750821571455</millis>
+  <nanos>643300</nanos>
+  <sequence>181</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.459869100Z</date>
+  <millis>1750821571459</millis>
+  <nanos>869100</nanos>
+  <sequence>182</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 4ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.492410300Z</date>
+  <millis>1750821571492</millis>
+  <nanos>410300</nanos>
+  <sequence>183</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>117</thread>
+  <message>Thread[117] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.494715600Z</date>
+  <millis>1750821571494</millis>
+  <nanos>715600</nanos>
+  <sequence>184</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>118</thread>
+  <message>Thread[118] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.815722500Z</date>
+  <millis>1750821571815</millis>
+  <nanos>722500</nanos>
+  <sequence>185</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.815722500Z</date>
+  <millis>1750821571815</millis>
+  <nanos>722500</nanos>
+  <sequence>186</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.818829400Z</date>
+  <millis>1750821571818</millis>
+  <nanos>829400</nanos>
+  <sequence>187</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 3ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.850546400Z</date>
+  <millis>1750821571850</millis>
+  <nanos>546400</nanos>
+  <sequence>188</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>119</thread>
+  <message>Thread[119] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:31.850546400Z</date>
+  <millis>1750821571850</millis>
+  <nanos>546400</nanos>
+  <sequence>189</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>120</thread>
+  <message>Thread[120] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.137598600Z</date>
+  <millis>1750821572137</millis>
+  <nanos>598600</nanos>
+  <sequence>190</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.137598600Z</date>
+  <millis>1750821572137</millis>
+  <nanos>598600</nanos>
+  <sequence>191</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.141066200Z</date>
+  <millis>1750821572141</millis>
+  <nanos>66200</nanos>
+  <sequence>192</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 4ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.173988300Z</date>
+  <millis>1750821572173</millis>
+  <nanos>988300</nanos>
+  <sequence>193</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>121</thread>
+  <message>Thread[121] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.176998900Z</date>
+  <millis>1750821572176</millis>
+  <nanos>998900</nanos>
+  <sequence>194</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>122</thread>
+  <message>Thread[122] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.408984800Z</date>
+  <millis>1750821572408</millis>
+  <nanos>984800</nanos>
+  <sequence>195</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.408984800Z</date>
+  <millis>1750821572408</millis>
+  <nanos>984800</nanos>
+  <sequence>196</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.411415100Z</date>
+  <millis>1750821572411</millis>
+  <nanos>415100</nanos>
+  <sequence>197</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 4ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.445865300Z</date>
+  <millis>1750821572445</millis>
+  <nanos>865300</nanos>
+  <sequence>198</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>123</thread>
+  <message>Thread[123] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.445865300Z</date>
+  <millis>1750821572445</millis>
+  <nanos>865300</nanos>
+  <sequence>199</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>124</thread>
+  <message>Thread[124] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.572252Z</date>
+  <millis>1750821572572</millis>
+  <nanos>252000</nanos>
+  <sequence>200</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.573236200Z</date>
+  <millis>1750821572573</millis>
+  <nanos>236200</nanos>
+  <sequence>201</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.576508Z</date>
+  <millis>1750821572576</millis>
+  <nanos>508000</nanos>
+  <sequence>202</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 3ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.608421600Z</date>
+  <millis>1750821572608</millis>
+  <nanos>421600</nanos>
+  <sequence>203</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>125</thread>
+  <message>Thread[125] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.612460300Z</date>
+  <millis>1750821572612</millis>
+  <nanos>460300</nanos>
+  <sequence>204</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>126</thread>
+  <message>Thread[126] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.723150600Z</date>
+  <millis>1750821572723</millis>
+  <nanos>150600</nanos>
+  <sequence>205</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.724175900Z</date>
+  <millis>1750821572724</millis>
+  <nanos>175900</nanos>
+  <sequence>206</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.727835400Z</date>
+  <millis>1750821572727</millis>
+  <nanos>835400</nanos>
+  <sequence>207</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 4ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.760396100Z</date>
+  <millis>1750821572760</millis>
+  <nanos>396100</nanos>
+  <sequence>208</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>127</thread>
+  <message>Thread[127] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.762743200Z</date>
+  <millis>1750821572762</millis>
+  <nanos>743200</nanos>
+  <sequence>209</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>128</thread>
+  <message>Thread[128] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.864766300Z</date>
+  <millis>1750821572864</millis>
+  <nanos>766300</nanos>
+  <sequence>210</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.865771600Z</date>
+  <millis>1750821572865</millis>
+  <nanos>771600</nanos>
+  <sequence>211</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.868759700Z</date>
+  <millis>1750821572868</millis>
+  <nanos>759700</nanos>
+  <sequence>212</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 4ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.900283800Z</date>
+  <millis>1750821572900</millis>
+  <nanos>283800</nanos>
+  <sequence>213</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>129</thread>
+  <message>Thread[129] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:32.946337300Z</date>
+  <millis>1750821572946</millis>
+  <nanos>337300</nanos>
+  <sequence>214</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>130</thread>
+  <message>Thread[130] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:33.015154900Z</date>
+  <millis>1750821573015</millis>
+  <nanos>154900</nanos>
+  <sequence>215</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/dashboard]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:33.015154900Z</date>
+  <millis>1750821573015</millis>
+  <nanos>154900</nanos>
+  <sequence>216</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:33.018267500Z</date>
+  <millis>1750821573018</millis>
+  <nanos>267500</nanos>
+  <sequence>217</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 3ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:33.047004800Z</date>
+  <millis>1750821573047</millis>
+  <nanos>4800</nanos>
+  <sequence>218</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>131</thread>
+  <message>Thread[131] GET /html/dtxstore/script/commonPage/popper.min.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:33.048216600Z</date>
+  <millis>1750821573048</millis>
+  <nanos>216600</nanos>
+  <sequence>219</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>132</thread>
+  <message>Thread[132] GET /html/dtxstore/script/commonPage/chart.umd.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:41.945112400Z</date>
+  <millis>1750821581945</millis>
+  <nanos>112400</nanos>
+  <sequence>220</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/manage/upload]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:41.945112400Z</date>
+  <millis>1750821581945</millis>
+  <nanos>112400</nanos>
+  <sequence>221</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:41.980649700Z</date>
+  <millis>1750821581980</millis>
+  <nanos>649700</nanos>
+  <sequence>222</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 35ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.019324400Z</date>
+  <millis>1750821582019</millis>
+  <nanos>324400</nanos>
+  <sequence>223</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>133</thread>
+  <message>Thread[133] GET /html/dtxstore/style/quill-2.0.3.css</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.026137300Z</date>
+  <millis>1750821582026</millis>
+  <nanos>137300</nanos>
+  <sequence>224</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>135</thread>
+  <message>Thread[135] GET /html/dtxstore/script/quill-2.0.3.js</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.026137300Z</date>
+  <millis>1750821582026</millis>
+  <nanos>137300</nanos>
+  <sequence>225</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>134</thread>
+  <message>Thread[134] GET /html/dtxstore/style/datatables.min.css</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.028084500Z</date>
+  <millis>1750821582028</millis>
+  <nanos>84500</nanos>
+  <sequence>226</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>136</thread>
+  <message>Thread[136] GET /html/dtxstore/script/datatables.min.js</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.057206500Z</date>
+  <millis>1750821582057</millis>
+  <nanos>206500</nanos>
+  <sequence>227</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>137</thread>
+  <message>Thread[137] GET /html/dtxstore/style/quill.snow.css.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.119678600Z</date>
+  <millis>1750821582119</millis>
+  <nanos>678600</nanos>
+  <sequence>228</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>138</thread>
+  <message>Thread[138] GET /html/dtxstore/script/quill.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.166610200Z</date>
+  <millis>1750821582166</millis>
+  <nanos>610200</nanos>
+  <sequence>229</sequence>
+  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
+  <method>log</method>
+  <thread>139</thread>
+  <message>"LessonTag/api/" Call API lesson</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:42.186565600Z</date>
+  <millis>1750821582186</millis>
+  <nanos>565600</nanos>
+  <sequence>230</sequence>
+  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
+  <method>log</method>
+  <thread>140</thread>
+  <message>"/DtxTag/api/" Call API list</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.383731600Z</date>
+  <millis>1750821583383</millis>
+  <nanos>731600</nanos>
+  <sequence>231</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>[dtxstore/manage/upload]</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.383731600Z</date>
+  <millis>1750821583383</millis>
+  <nanos>731600</nanos>
+  <sequence>232</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>getTemplateData</method>
+  <thread>36</thread>
+  <message>加入全域變數</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.388227700Z</date>
+  <millis>1750821583388</millis>
+  <nanos>227700</nanos>
+  <sequence>233</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>render</method>
+  <thread>36</thread>
+  <message>FTL Process time: 5ms</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.469576700Z</date>
+  <millis>1750821583469</millis>
+  <nanos>576700</nanos>
+  <sequence>234</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>141</thread>
+  <message>Thread[141] GET /html/dtxstore/script/quill.js.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.504348700Z</date>
+  <millis>1750821583504</millis>
+  <nanos>348700</nanos>
+  <sequence>235</sequence>
+  <logger>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.httpd.file.FileRequestHandleTask</class>
+  <method>run</method>
+  <thread>142</thread>
+  <message>Thread[142] GET /html/dtxstore/style/quill.snow.css.map</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.533906800Z</date>
+  <millis>1750821583533</millis>
+  <nanos>906800</nanos>
+  <sequence>236</sequence>
+  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
+  <method>log</method>
+  <thread>143</thread>
+  <message>"LessonTag/api/" Call API lesson</message>
+</record>
+<record>
+  <date>2025-06-25T03:19:43.556620600Z</date>
+  <millis>1750821583556</millis>
+  <nanos>620600</nanos>
+  <sequence>237</sequence>
+  <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
+  <level>INFO</level>
+  <class>itri.sstc.framework.core.api.RESTfulAPI</class>
+  <method>log</method>
+  <thread>144</thread>
+  <message>"/DtxTag/api/" Call API list</message>
+</record>
