@@ -1058,7 +1058,7 @@
 		
 		// 顯示封面圖片預覽
 		if (lessonMainInfo.headerImageUrl) {
-			const headerImageUrl = 'http://127.0.0.1:7000/File/api/file/path' + lessonMainInfo.headerImageUrl;
+			const headerImageUrl = '/File/api/file/path' + lessonMainInfo.headerImageUrl;
 			$('#header-image-preview').attr('src', headerImageUrl);
 			$('#header-preview-container').show();
 			//$('#header-upload-area').hide();
@@ -1100,7 +1100,7 @@
 						
 						// 檢查是否為絕對URL，若不是則加上前綴
 						if (!videoUrl.startsWith('http')) {
-							videoUrl = 'http://127.0.0.1:7000/File/api/file/path' + videoUrl;
+							videoUrl = '/File/api/file/path' + videoUrl;
 						}
 						
 						// 設定影片源並顯示
@@ -1133,7 +1133,7 @@
 			
 			// 檢查是否為絕對URL，若不是則加上前綴
 			if (!imageUrl.startsWith('http')) {
-				imageUrl = 'http://127.0.0.1:7000/File/api/file/path' + imageUrl;
+				imageUrl = '/File/api/file/path' + imageUrl;
 			}
 			
 			// 創建網格項元素
