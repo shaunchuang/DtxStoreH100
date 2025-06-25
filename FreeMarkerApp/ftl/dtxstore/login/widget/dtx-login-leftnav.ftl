@@ -45,7 +45,7 @@
                             </#if>
                         </ul>
                     </li>
-                    <hr>
+                    <!--<hr>
                     <li>
                         <a class="leftnav-title" href="#developLesson">教案開發 <i class="fas fa-chevron-down"></i></a>
                         <ul id="developLesson" class="list-unstyled leftnav-dropdown" style="display: none;">
@@ -53,7 +53,7 @@
                             <li><a class="leftnav-list-text" href="#">教案開發說明</a></li>
                             <li><a class="leftnav-list-text" href="#">設計教案</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                     <hr>
                     <li>
                         <a class="leftnav-title" href="#myAccount">我的帳務 <i

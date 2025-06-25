@@ -48,9 +48,9 @@
 											<button onclick="window.open('http://140.96.170.75:8272/editor.html', '_blank')" class="btn btn-primary">
 												開啟 Low Code 編輯器
 											</button>
-											<button onclick="window.open('/File/api/file/path/20250506_135909_Project.html', '_blank')" class="btn btn-secondary">
+											<!--<button onclick="window.open('/File/api/file/path/20250506_135909_Project.html', '_blank')" class="btn btn-secondary">
 												測試教案
-											</button>
+											</button>-->
 										</div>
 									</td>
 								</tr>
@@ -2128,7 +2128,7 @@ function getTagTypeName(tagType) {
     }
 
     .lesson-label {
-        width: 10%;
+        width: 17%;
         font-weight: bold;
         color: black;
         padding: 10px 20px;
