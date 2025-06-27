@@ -1,0 +1,58 @@
+name: Deploy to Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # 允許手動觸發
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # 獲取完整的 git 歷史記錄，用於版本號生成
+
+    - run: echo "KEY length=${#SERVER_SSH_KEY}"
+      shell: bash
+      env:
+        SERVER_SSH_KEY: ${{ secrets.SERVER_SSH_KEY }}
+    
+    - name: Deploy to remote server
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SERVER_HOST }}
+        username: ${{ secrets.SERVER_USER }}
+        key: ${{ secrets.SERVER_SSH_KEY }}
+        port: ${{ secrets.SERVER_PORT || 22 }}
+        script: |
+          # 切換到專案目錄
+          cd ${{ secrets.PROJECT_PATH || '/home/shaun/dtx/DtxStoreH100' }}
+          
+          # 確保腳本有執行權限
+          chmod +x FreeMarkerApp/redeploy-docker.sh
+          
+          # 執行重新部署腳本
+          cd FreeMarkerApp
+          ./redeploy-docker.sh
+          
+          # 檢查部署狀態
+          echo "檢查容器狀態..."
+          docker ps | grep dtxstore || echo "容器未運行"
+          
+          # 檢查應用程式是否正常運行
+          echo "等待應用程式啟動..."
+          sleep 30
+          curl -f http://localhost:8261 || echo "應用程式可能未正常啟動"
+
+    - name: Notify deployment status
+      if: always()
+      run: |
+        if [ ${{ job.status }} == 'success' ]; then
+          echo "✅ 部署成功完成"
+        else
+          echo "❌ 部署失敗"
+        fi
