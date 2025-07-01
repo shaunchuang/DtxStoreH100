@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2025-06-30T01:18:17.016130600Z</date>
-  <millis>1751246297016</millis>
-  <nanos>130600</nanos>
+  <date>2025-07-01T07:24:21.327087600Z</date>
+  <millis>1751354661327</millis>
+  <nanos>87600</nanos>
   <sequence>0</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>初始化語言庫 ...</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.058840600Z</date>
-  <millis>1751246297058</millis>
-  <nanos>840600</nanos>
+  <date>2025-07-01T07:24:21.381653100Z</date>
+  <millis>1751354661381</millis>
+  <nanos>653100</nanos>
   <sequence>1</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Load language for en_US, file=messages_en_US.properties</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.061852100Z</date>
-  <millis>1751246297061</millis>
-  <nanos>852100</nanos>
+  <date>2025-07-01T07:24:21.384976900Z</date>
+  <millis>1751354661384</millis>
+  <nanos>976900</nanos>
   <sequence>2</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -38,9 +38,9 @@
   <message>Load language for zh_TW, file=messages_zh_TW.properties</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.061852100Z</date>
-  <millis>1751246297061</millis>
-  <nanos>852100</nanos>
+  <date>2025-07-01T07:24:21.386017600Z</date>
+  <millis>1751354661386</millis>
+  <nanos>17600</nanos>
   <sequence>3</sequence>
   <logger>itri.sstc.freemarker.core.Language</logger>
   <level>INFO</level>
@@ -50,9 +50,9 @@
   <message>初始化語言庫 OK</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.249387600Z</date>
-  <millis>1751246297249</millis>
-  <nanos>387600</nanos>
+  <date>2025-07-01T07:24:21.660316200Z</date>
+  <millis>1751354661660</millis>
+  <nanos>316200</nanos>
   <sequence>4</sequence>
   <logger>itri.sstc.framework.core.api.RESTfulAPI</logger>
   <level>INFO</level>
@@ -62,9 +62,9 @@
   <message>新增 RootAPI 實例</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.254476600Z</date>
-  <millis>1751246297254</millis>
-  <nanos>476600</nanos>
+  <date>2025-07-01T07:24:21.669725500Z</date>
+  <millis>1751354661669</millis>
+  <nanos>725500</nanos>
   <sequence>5</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
@@ -74,9 +74,9 @@
   <message>初始化 LiteHttpd Service 完成</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.264535900Z</date>
-  <millis>1751246297264</millis>
-  <nanos>535900</nanos>
+  <date>2025-07-01T07:24:21.680165300Z</date>
+  <millis>1751354661680</millis>
+  <nanos>165300</nanos>
   <sequence>6</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -86,9 +86,9 @@
   <message>建立 dtxstore FTL處理器, ClassName: demo.freemarker.handler.page.DtxStorePage</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.268535700Z</date>
-  <millis>1751246297268</millis>
-  <nanos>535700</nanos>
+  <date>2025-07-01T07:24:21.685153300Z</date>
+  <millis>1751354661685</millis>
+  <nanos>153300</nanos>
   <sequence>7</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -98,9 +98,9 @@
   <message>Assign method register to pattern dtxstore/register</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.269519Z</date>
-  <millis>1751246297269</millis>
-  <nanos>519000</nanos>
+  <date>2025-07-01T07:24:21.685153300Z</date>
+  <millis>1751354661685</millis>
+  <nanos>153300</nanos>
   <sequence>8</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -110,9 +110,9 @@
   <message>Assign method query to pattern dtxstore/query</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.269519Z</date>
-  <millis>1751246297269</millis>
-  <nanos>519000</nanos>
+  <date>2025-07-01T07:24:21.686291200Z</date>
+  <millis>1751354661686</millis>
+  <nanos>291200</nanos>
   <sequence>9</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -122,9 +122,9 @@
   <message>Assign method home to pattern dtxstore/home</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.270508700Z</date>
-  <millis>1751246297270</millis>
-  <nanos>508700</nanos>
+  <date>2025-07-01T07:24:21.687340700Z</date>
+  <millis>1751354661687</millis>
+  <nanos>340700</nanos>
   <sequence>10</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -134,9 +134,9 @@
   <message>Assign method application to pattern dtxstore/application</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.270508700Z</date>
-  <millis>1751246297270</millis>
-  <nanos>508700</nanos>
+  <date>2025-07-01T07:24:21.687340700Z</date>
+  <millis>1751354661687</millis>
+  <nanos>340700</nanos>
   <sequence>11</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -146,9 +146,9 @@
   <message>Assign method index1 to pattern dtxstore/</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.271494100Z</date>
-  <millis>1751246297271</millis>
-  <nanos>494100</nanos>
+  <date>2025-07-01T07:24:21.688324500Z</date>
+  <millis>1751354661688</millis>
+  <nanos>324500</nanos>
   <sequence>12</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -158,9 +158,9 @@
   <message>Assign method library to pattern dtxstore/library</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.271494100Z</date>
-  <millis>1751246297271</millis>
-  <nanos>494100</nanos>
+  <date>2025-07-01T07:24:21.688324500Z</date>
+  <millis>1751354661688</millis>
+  <nanos>324500</nanos>
   <sequence>13</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -170,9 +170,9 @@
   <message>Assign method logout to pattern dtxstore/logout</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.271494100Z</date>
-  <millis>1751246297271</millis>
-  <nanos>494100</nanos>
+  <date>2025-07-01T07:24:21.688324500Z</date>
+  <millis>1751354661688</millis>
+  <nanos>324500</nanos>
   <sequence>14</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -182,9 +182,9 @@
   <message>Assign method login to pattern dtxstore/login</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.272474500Z</date>
-  <millis>1751246297272</millis>
-  <nanos>474500</nanos>
+  <date>2025-07-01T07:24:21.689305600Z</date>
+  <millis>1751354661689</millis>
+  <nanos>305600</nanos>
   <sequence>15</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -194,9 +194,9 @@
   <message>Assign method steamAppImport to pattern dtxstore/manage/SteamAppImport</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.272474500Z</date>
-  <millis>1751246297272</millis>
-  <nanos>474500</nanos>
+  <date>2025-07-01T07:24:21.689305600Z</date>
+  <millis>1751354661689</millis>
+  <nanos>305600</nanos>
   <sequence>16</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
@@ -206,22 +206,10 @@
   <message>Assign method manageList to pattern dtxstore/manage/list</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.272474500Z</date>
-  <millis>1751246297272</millis>
-  <nanos>474500</nanos>
+  <date>2025-07-01T07:24:21.689305600Z</date>
+  <millis>1751354661689</millis>
+  <nanos>305600</nanos>
   <sequence>17</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method developScratch to pattern dtxstore/develop/scratch</message>
-</record>
-<record>
-  <date>2025-06-30T01:18:17.273459900Z</date>
-  <millis>1751246297273</millis>
-  <nanos>459900</nanos>
-  <sequence>18</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -230,22 +218,10 @@
   <message>Assign method manageLesson to pattern dtxstore/manage/edit</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.273459900Z</date>
-  <millis>1751246297273</millis>
-  <nanos>459900</nanos>
-  <sequence>19</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method pointsHistory to pattern dtxstore/account/pointhistory</message>
-</record>
-<record>
-  <date>2025-06-30T01:18:17.273459900Z</date>
-  <millis>1751246297273</millis>
-  <nanos>459900</nanos>
-  <sequence>20</sequence>
+  <date>2025-07-01T07:24:21.689305600Z</date>
+  <millis>1751354661689</millis>
+  <nanos>305600</nanos>
+  <sequence>18</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -254,22 +230,10 @@
   <message>Assign method dashboard to pattern dtxstore/dashboard</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.274444500Z</date>
-  <millis>1751246297274</millis>
-  <nanos>444500</nanos>
-  <sequence>21</sequence>
-  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
-  <level>INFO</level>
-  <class>itri.sstc.freemarker.core.RequestHandler</class>
-  <method>init</method>
-  <thread>1</thread>
-  <message>Assign method manageUpload to pattern dtxstore/manage/upload</message>
-</record>
-<record>
-  <date>2025-06-30T01:18:17.274444500Z</date>
-  <millis>1751246297274</millis>
-  <nanos>444500</nanos>
-  <sequence>22</sequence>
+  <date>2025-07-01T07:24:21.690809100Z</date>
+  <millis>1751354661690</millis>
+  <nanos>809100</nanos>
+  <sequence>19</sequence>
   <logger>itri.sstc.freemarker.core.RequestHandler</logger>
   <level>INFO</level>
   <class>itri.sstc.freemarker.core.RequestHandler</class>
@@ -278,9 +242,45 @@
   <message>Assign method index0 to pattern dtxstore</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.276415300Z</date>
-  <millis>1751246297276</millis>
-  <nanos>415300</nanos>
+  <date>2025-07-01T07:24:21.690809100Z</date>
+  <millis>1751354661690</millis>
+  <nanos>809100</nanos>
+  <sequence>20</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method pointsHistory to pattern dtxstore/account/pointhistory</message>
+</record>
+<record>
+  <date>2025-07-01T07:24:21.690809100Z</date>
+  <millis>1751354661690</millis>
+  <nanos>809100</nanos>
+  <sequence>21</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method developScratch to pattern dtxstore/develop/scratch</message>
+</record>
+<record>
+  <date>2025-07-01T07:24:21.691798900Z</date>
+  <millis>1751354661691</millis>
+  <nanos>798900</nanos>
+  <sequence>22</sequence>
+  <logger>itri.sstc.freemarker.core.RequestHandler</logger>
+  <level>INFO</level>
+  <class>itri.sstc.freemarker.core.RequestHandler</class>
+  <method>init</method>
+  <thread>1</thread>
+  <message>Assign method manageUpload to pattern dtxstore/manage/upload</message>
+</record>
+<record>
+  <date>2025-07-01T07:24:21.692782600Z</date>
+  <millis>1751354661692</millis>
+  <nanos>782600</nanos>
   <sequence>23</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -290,9 +290,9 @@
   <message>初始化 dtxstore FTL處理器 OK</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.276415300Z</date>
-  <millis>1751246297276</millis>
-  <nanos>415300</nanos>
+  <date>2025-07-01T07:24:21.693767Z</date>
+  <millis>1751354661693</millis>
+  <nanos>767000</nanos>
   <sequence>24</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -302,9 +302,9 @@
   <message>初始化 FreeMarker 樣版引擎 ...</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.326331900Z</date>
-  <millis>1751246297326</millis>
-  <nanos>331900</nanos>
+  <date>2025-07-01T07:24:21.749140500Z</date>
+  <millis>1751354661749</millis>
+  <nanos>140500</nanos>
   <sequence>25</sequence>
   <logger>itri.sstc.freemarker.core.FMTemplateEngine</logger>
   <level>INFO</level>
@@ -314,9 +314,9 @@
   <message>初始化 FreeMarker 樣版引擎 OK</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.327314600Z</date>
-  <millis>1751246297327</millis>
-  <nanos>314600</nanos>
+  <date>2025-07-01T07:24:21.750198900Z</date>
+  <millis>1751354661750</millis>
+  <nanos>198900</nanos>
   <sequence>26</sequence>
   <logger>itri.sstc.framework.core.httpd.session.HttpSessionManager</logger>
   <level>INFO</level>
@@ -326,9 +326,9 @@
   <message>啟用 HttpSessionManager OK</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.327314600Z</date>
-  <millis>1751246297327</millis>
-  <nanos>314600</nanos>
+  <date>2025-07-01T07:24:21.751259100Z</date>
+  <millis>1751354661751</millis>
+  <nanos>259100</nanos>
   <sequence>27</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
@@ -338,9 +338,9 @@
   <message>啟動 LiteHttpd Service(Port 8261)</message>
 </record>
 <record>
-  <date>2025-06-30T01:18:17.327314600Z</date>
-  <millis>1751246297327</millis>
-  <nanos>314600</nanos>
+  <date>2025-07-01T07:24:21.751259100Z</date>
+  <millis>1751354661751</millis>
+  <nanos>259100</nanos>
   <sequence>28</sequence>
   <logger>itri.sstc.framework.core.httpd.HttpService</logger>
   <level>INFO</level>
